@@ -22,7 +22,7 @@ class ODBCConnection implements Connection
     const OPTION_EMULATE_MULTIPLE_EXEC = 'emulate_multiple_exec';
 
     private static $DEFAULT_OPTIONS = [
-        self::OPTION_EMULATE_MULTIPLE_EXEC => false
+        self::OPTION_EMULATE_MULTIPLE_EXEC => true
     ];
 
     private $dbh;
